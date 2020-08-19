@@ -6,6 +6,7 @@ defmodule NookBook.Application do
   use Application
 
   def start(_type, _args) do
+    NookBook.Data.Setup.setup()
     children = [
       # Start the Telemetry supervisor
       NookBookWeb.Telemetry,
