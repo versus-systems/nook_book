@@ -6,7 +6,6 @@ defmodule NookBook.Application do
   use Application
 
   def start(_type, _args) do
-    NookBook.Data.Setup.setup()
     children = [
       # Start the Telemetry supervisor
       NookBookWeb.Telemetry,
@@ -22,6 +21,11 @@ defmodule NookBook.Application do
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: NookBook.Supervisor]
     Supervisor.start_link(children, opts)
+  end
+
+  def start_phase(:init, :normal, _) do
+    Application.get_env(:nook_book, :cluster_role)
+    |> NookBook.Data.Setup.setup()
   end
 
   # Tell Phoenix to update the endpoint configuration
