@@ -1,0 +1,38 @@
+<div>
+  <div>
+    <h1 class="collection-header" phx-click="toggle" phx-value-collection="bugs">Bugs</h1>
+    <div>
+      <ul class="collection">
+        <%= for bug <- @collections["bugs"] do %>
+          <li><img src="<%= bug.icon %>" alt="<%= bug.name %>" title="<%= bug.name %>" phx-click="show" phx-value-collection="bugs" phx-value-id="<%= bug.id %>"/></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <h1 class="collection-header" phx-click="toggle" phx-value-collection="fish">Fish</h1>
+    <div>
+      <ul class="collection">
+        <%= for fish <- @collections["fish"] do %>
+          <li><img src="<%= fish.icon %>" alt="<%= fish.name %>" title="<%= fish.name %>" phx-click="show" phx-value-collection="fish" phx-value-id="<%= fish.id %>" /></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <h1 class="collection-header" phx-click="toggle" phx-value-collection="sea_creatures">Sea Creatures</h1>
+    <div>
+      <ul class="collection">
+        <%= for sea_creature <- @collections["sea_creatures"] do %>
+          <li><img src="<%= sea_creature.icon %>" alt="<%= sea_creature.name %>" title="<%= sea_creature.name %>" phx-click="show" phx-value-collection="sea_creatures" phx-value-id="<%= sea_creature.id %>"/></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+<%= if @record do %>
+  <div class="record">
+    <h2><%= @record.name %> (<%= @record.price %> Bells)</h2><h2 class="close" phx-click="hide">X</h2>
+    <img src="<%= @record.image %>"/>
+  </div>
+<% end %>
+</div>

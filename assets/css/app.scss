@@ -89,3 +89,53 @@
 .alert:empty {
   display: none;
 }
+
+.collection-header {
+  background-color: #F2AF5E;
+  border-radius: 12px 12px 0px 0px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.collection {
+  list-style-type: none;
+  border-color: #F2AF5E;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.collection li {
+  display: inline-block;
+  width: 130px;
+  cursor: pointer;
+}
+
+.record {
+  border-color: #000000;
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 600px;
+}
+
+.record h2 {
+  background-color: #F2AF5E;
+  text-align: center;
+  width: 550px;
+  display: inline-block;
+}
+
+.record .close {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-color: #000000;
+  text-align: center;
+  width: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
