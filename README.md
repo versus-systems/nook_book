@@ -1,19 +1,24 @@
 # NookBook
 
-To start your Phoenix server:
+This is the training project for the "Mnesia: Concept to Reality" course for ElixirConf 2020. The branches and commits to the "main" branch correspond to details in the provided Google Document. The outline for those steps are:
 
-  * Install dependencies with `mix deps.get`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
+### Build the Nook Book Application
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- Step 1: Project Setup
+- Step 2: Mnesia Schema Setup
+- Step 3: Table Setup
+- Step 4: Create a Repo for Easier Mnesia Access
+- Step 5: Expand the GenericCache Module
+- Step 6: A Simple API Client
+- Step 7: Create a Simple Cache
+- Step 8: Create a LiveView for the Application
+- Step 9: Create a Controller for Our Images
+- Step 10: Update Our Router
+- Step 11: Build Out the HTML
+- Step 12: Setup Local Multi-Node Mnesia
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+### Deploy Nook Book to AWS
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- Step 13: Setup Release
+- Step 14: Setup Circle
+- Step 15: Setup AWS
