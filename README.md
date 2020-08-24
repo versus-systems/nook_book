@@ -28,6 +28,7 @@ This is the training project for the "Mnesia: Concept to Reality" course for Eli
 - Step 19: Finish Infrastructure Setup
 - Step 20: Use Terraform Output for Hosts
 - Step 21: Setup Libcluster
+- Step 22: Use Terraform Output for SSH Config
 
 
 
@@ -36,3 +37,4 @@ This is the training project for the "Mnesia: Concept to Reality" course for Eli
 - "name" variable near the top of "config/releases.exs"
 - hosts: array in the libcluster config in "config/releases.exs"
 - "name" default value at the top of "infrastructure/main.tf"
+- "sshkey" default value at the top of "infrastructure/output.tf"
