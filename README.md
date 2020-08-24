@@ -29,6 +29,7 @@ This is the training project for the "Mnesia: Concept to Reality" course for Eli
 - Step 20: Use Terraform Output for Hosts
 - Step 21: Setup Libcluster
 - Step 22: Use Terraform Output for SSH Config
+- Step 23: Build and Download Release
 
 
 
