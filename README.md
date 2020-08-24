@@ -30,6 +30,7 @@ This is the training project for the "Mnesia: Concept to Reality" course for Eli
 - Step 21: Setup Libcluster
 - Step 22: Use Terraform Output for SSH Config
 - Step 23: Build and Download Release
+- Step 24: Upload and Run the Release
 
 
 
