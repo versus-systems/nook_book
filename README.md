@@ -23,3 +23,4 @@ This is the training project for the "Mnesia: Concept to Reality" course for Eli
 - Step 14: Setup Circle
 - Step 15: Setup AWS
 - Step 16: Setup Terraform
+- Step 17: Implement Security Group
