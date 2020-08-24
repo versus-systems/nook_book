@@ -26,3 +26,4 @@ This is the training project for the "Mnesia: Concept to Reality" course for Eli
 - Step 17: Implement Security Group
 - Step 18: Update Release Files
 - Step 19: Finish Infrastructure Setup
+- Step 20: Use Terraform Output for Hosts
